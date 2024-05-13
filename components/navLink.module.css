@@ -1,0 +1,23 @@
+.active {
+    background: linear-gradient(to right, #ff8a05, #f9b331);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.link {
+    text-decoration: none;
+    color: #ddd6cb;
+    font-weight: bold;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+}
+  
+.link:hover,
+.link a:active {
+    background-image: linear-gradient(to right, #ff8a05, #f9b331);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 20px rgba(248, 190, 42, 0.8);
+}
